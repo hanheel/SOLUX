@@ -42,12 +42,12 @@
 
 4) Outlet : 상위 컴포넌트를 UI에 그대로 보여주는 상태에서 하위 컴포넌트만 렌더링
     * router 객체에서 App 컴포넌트 하위에 Button1, Button2 컴포넌트가 위치해 있음
-    * App 컴포넌트에 있는 Header와 button1, button2는 그대로 UI에 있으면서 **'아래쪽 빈 부분'**에 하위 컴포넌트에 해당하는 UI가 렌더링 됨
+    * App 컴포넌트에 있는 Header와 button1, button2는 그대로 UI에 있으면서 **아래쪽 빈 부분**에 하위 컴포넌트에 해당하는 UI가 렌더링 됨
     * button1을 누르면 Button1 컴포넌트가 App 컴포넌트 UI 밑에 렌더링
     * button2를 누르면 Button2 컴포넌트가 App 컴포넌트 UI 밑에 렌더링
       
-  Uploading Vite + React - Chrome 2024-05-25 15-31-06.mp4…
-https://github.com/hanheel/SOLUX/assets/168459001/ea86118e-491c-4cc8-bc50-d569f82b9950
+  > 예시 영상
+    https://github.com/hanheel/SOLUX/assets/168459001/ea86118e-491c-4cc8-bc50-d569f82b9950
 
 **'Page' 컴포넌트는 App의 하위 컴포넌트가 아니며 동일한 계층을 가지므로 App 하단에 렌더링 되는 게 아니라 전혀 다른 새로운 페이지로 이동된다**
 
