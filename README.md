@@ -21,7 +21,7 @@
 
   * 메인페이지('/'): App.jsx
   * '/button1' : 해당 주소로 이동 시 Button1 컴포넌트를 렌더링
-  * '/button2' : 해당 주소로 이동 시 Button2 컴포넌트를 렌더
+  * '/button2' : 해당 주소로 이동 시 Button2 컴포넌트를 렌더링
 
 2) RouterProvider : RouterProvider 하위 컴포넌트들은 모두 해당 라우팅에 영향을 받는
    위에서 정의한 router 객체를 router 속성에 할당해준다
